@@ -65,7 +65,7 @@ https://github.com/udacity/reactnd-project-myreads-starter
 
 ## Fontes de pesquisa para produção
 ```js
-https:https://www.carlrippon.com/building-a-simple-component-in-react-js-part-2-search-event/
+https://www.carlrippon.com/building-a-simple-component-in-react-js-part-2-search-event/
 https://reactjs.org/
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
