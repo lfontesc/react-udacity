@@ -27,11 +27,14 @@ class BooksApp extends React.Component {
     ]
   };
 
+  /* Trazendo todos os livros quando a pagina é carregada */
   componentDidMount() {
     BooksAPI.getAll().then(shelvedBooks => {
       this.setState({ shelvedBooks });
     });
   }
+
+  /* metodo para mudar estante */
   changeShelf = (bookToAdd, shelf) => {
     this.setState(state => {
           const nextState = state.shelvedBooks.filter(book => book.id !== bookToAdd.id).concat( [{...bookToAdd, shelf}] );
