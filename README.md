@@ -29,6 +29,12 @@ $ npm start
 │   ├── favicon.ico 
 │   └── index.html 
 └── src
+    ├── api 
+        └── App.css 
+    ├── books 
+        ├── add.svg
+        ├── arrow-back.svg
+        └── arrow-drop-down.svg
     ├── App.css 
     ├── App.js 
     ├── App.test.js 
@@ -39,6 +45,7 @@ $ npm start
     │   └── arrow-drop-down.svg
     ├── index.css
     └── index.js
+    └── NotFound.js
 ```
 ## Sobre o Projeto MyReads
 
